@@ -2,13 +2,13 @@
 // require module
 const DataAccess = require('./lib/data.access.service');
 
-// create a new instance with specifiec path
+// create a new instance with specific path
 const da = new DataAccess({ path: './data/test' });
 
 // create instance with default 'data' path
 // const da = DataAccess();
 
-// the the filepath for the file
+// the filepath for the file
 const filePath = da.getFilePath('User');
 
 // fetch the file data
