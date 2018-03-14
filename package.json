@@ -1,0 +1,28 @@
+{
+  "name": "mongoose-fs",
+  "version": "0.0.1",
+  "description": "A toy object modeling tool and file system database meant to emulate MongoDB and Mongoose but implemented simply as an exercise in building simple tools and an API similar to Mongoose.",
+  "main": "mongoose-fs.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "MongoDB",
+    "Mongoose",
+    "File",
+    "Object Modelling"
+  ],
+  "author": "mpace",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "A toy object modeling tool and file system database meant to emulate MongoDB and Mongoose but implemented simply as an exercise in building simple tools and an API similar to Mongoose."
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  },
+  "dependencies": {
+    "formidable": "^1.1.1",
+    "uuid": "^3.0.1"
+  }
+}
